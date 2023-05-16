@@ -1,0 +1,39 @@
+th, td {
+ 
+  padding: 0px;
+  width:350px;
+  
+}
+th{
+ 
+  padding: 10px;
+  width:350px;
+  color:black;
+  font-size:20px;
+ text-align:center;
+ vertical-align:middle;
+ margin-left:50px;
+
+}
+
+table {
+
+  width:800px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:50px;
+    margin-top:50px;
+}
+
+
+.container .box-outer1{
+	width:900px;
+	height:450px;
+	border-radius:30px;
+	background-color:#fff;
+	margin-top:20px;
+	margin-left:20px;
+}
+#button{
+	width:100px;
+}

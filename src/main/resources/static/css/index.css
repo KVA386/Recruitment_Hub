@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: rgb(76,24,201);
+	background-image: linear-gradient(90deg, rgba(76,24,201,1) 0%, rgba(111,0,255,1) 100%);
+}
+.container{
+	height: 770px;
+	width: 1270px;
+	background: white;
+	border-radius: 30px;
+	display: flex;
+	background-image: url(https://myloginpage.glitch.me/wave.svg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 5px 5px 100px gray;
+}
+.img-div{
+	height: 90%;
+	width: 900px;
+	background-image: url(https://myloginpage.glitch.me/logo10.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+}
+.login-div{
+	height: 100%;
+	width: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transform-style: preserve-3d;
+}
+.item{
+	  display: inline-block;
+	flex-direction:row;
+	display:flex;
+	
+background-size: cover;
+border-radius:10px;
+
+}
+.container1 {
+  width: 400px;
+ justify-content: space-between;
+padding:20px;
+margin-bottom:25px;
+  display: flex;
+ font-size: 20px;
+ 
+font-weight: bolder;
+  align-items: center;
+}
+
+.login-box{
+	height: 620px;
+	width: 450px;
+	border-radius: 20px;
+	background: rgb(76,24,201);
+	background-image: linear-gradient(90deg, rgba(76,24,201,1) 0%, rgba(111,0,255,1) 100%);
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	text-align-last: center;
+	box-shadow: 0 0 20px #cacaca;
+}
+h1{
+	font-weight: bolder;
+	color: white;
+	font-size: 40px;
+}
+.login-form{
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 40px;
+	grid-template-columns: auto;
+	flex-direction:column;
+	margin-top: 10px;
+}
+.input-div{
+	height: 60px;
+	width: 340px;
+	background: white;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    
+}
+#logo{
+	height: 20px;
+	width: 40px;
+    align-items: center;
+    
+}
+input{
+	height: 60px;
+	font-size: 14px;
+	text-align-last: left;
+	width: 290px;
+	background: none;
+	border: none;
+	outline: none;
+}
+.l-txt{
+	margin-top:10px;
+}
+#login-btn{
+	height: 50px;
+	width: 340px;
+	background: #fec510;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	text-align-last: center;
+	font-weight: bolder;
+	cursor: pointer;
+	border: none;
+}
+p{	
+	color: white;
+	font-weight: bolder;
+   
+	display:flex;
+	flex-direction:column;
+}
+#remember{
+	height: 15px;
+	width: 15px;
+	background: yellow;
+
+}
+.fa-solid{
+	color:	#fec510;
+	font-size: 20px;
+}
+
+#footer{
+	color: black;
+	font-weight: 100;
+	padding-bottom:50px;
+}
+.login-form p a{
+	font-weight: bolder;
+	color:white;
+    display:flex;
+    flex-direction:row;
+     grid-column-gap:10px;
+}
+.newuser a{
+	color:White;
+	display:flex;
+	flex-direction:column;
+	  grid-column-gap:10px;
+	 
+}
